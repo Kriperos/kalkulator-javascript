@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    outline: none;
 }
 body{
     text-align: center;
@@ -49,9 +48,6 @@ body{
     border: 1px solid #d9d9d9;
     background:lightgrey;
   }
-  input[type="button"].double{
-      width:262px;
-  }
   input[type="button"].colored{
       background:white ;
   }
@@ -60,7 +56,7 @@ body{
   }
   input[type="button"].colored:hover{
     transition: .5s;
-    background: linear-gradient( rgba(217, 245, 239, 0.596),#abbde4)
+    background: linear-gradient( rgba(217, 245, 239, 0.596), #abbde4)
   }
   input[type="button"].colored-blue:hover{
     transition: .5s;

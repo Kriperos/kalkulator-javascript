@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    outline: none;
 }
 body{
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
+    min-height: 80vh;
+    max-width: 1224px;
+    width: max-content;
+    margin-left:15% ;
 }
 .table{
     width:100%;
@@ -30,7 +35,6 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    width:100%;
     height:15rem;
     width:80%;
     margin-left:10%;
@@ -56,7 +60,7 @@ body{
   }
   input[type="button"].colored:hover{
     transition: .5s;
-    background: linear-gradient( rgba(217, 245, 239, 0.596), #abbde4)
+    background: linear-gradient( rgba(217, 245, 239, 0.596),#abbde4)
   }
   input[type="button"].colored-blue:hover{
     transition: .5s;
